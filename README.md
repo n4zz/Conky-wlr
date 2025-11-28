@@ -1,5 +1,4 @@
 # Conky-wlr
-# Conky-wlr
 
 ## Love Conky and want it to run natively on Wayland?  
 You're in the right place!
