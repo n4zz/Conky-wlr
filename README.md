@@ -23,15 +23,16 @@ I understand this will be a long-term effort, and not everything may succeed. Th
 ---
 
 ## 🚀 Current Status
-- This project is in its **early stages**  
-- Currently serves mainly as a place for experiments and research  
-- The goal is to gradually build a functional Wayland backend  
-| Milestone | Progress |
-|-----------|----------|
-| Project Foundation | 🔹 40% |
-| Wayland Architecture Research | 🔹 20% |
-| Prototype Rendering Layer | 🔹 10% |
-
+- This project is in its **early stages**       
+- Currently serves mainly as a place for experiments and research         
+- The goal is to gradually build a functional Wayland backend      
+          
+| Milestone | Progress |      
+|-----------|----------|        
+| Project Foundation | 🔹 40% |       
+| Wayland Architecture Research | 🔹 20% |        
+| Prototype Rendering Layer | 🔹 10% |        
+          
 > See [Milestones](https://github.com/n4zz/Conky-wlr/milestones) for details.  
 > Track issues progress [here](https://github.com/n4zz/Conky-wlr/issues).
 
