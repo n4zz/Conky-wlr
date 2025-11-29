@@ -9,37 +9,81 @@ I understand this will be a long-term effort, and not everything may succeed. Th
 
 ---
 
-## Project Goal
-
-The aim is to create a **Wayland-native backend for Conky**, allowing:
-
-- Text, graphs, and circular indicators (Lua gauges)  
-- Stable operation on modern compositors (Plasma, Sway, Hyprland)  
-- Experiments and prototypes that anyone can try and extend  
+> **Wayland-native Conky** – bringing Conky-style system monitoring to Wayland compositors  
+> (Plasma, Sway, Hyprland, etc.)
 
 ---
 
-## How to Contribute
-
-1. The repository is open for contributors — any help is welcome.  
-2. To add features or test, create an **issue** or a **pull request**.  
-3. Communication takes place via GitHub issues or PR comments.  
+## 🌟 Project Vision
+- Build a **Wayland-native backend** for Conky  
+- Support **text, graphs, and Lua-based widgets**  
+- Provide **cross-compositor compatibility**  
+- Encourage **community-driven experimentation and contributions**
 
 ---
 
-## Project Status
-
+## 🚀 Current Status
 - This project is in its **early stages**  
 - Currently serves mainly as a place for experiments and research  
 - The goal is to gradually build a functional Wayland backend  
+| Milestone | Progress |
+|-----------|----------|
+| Project Foundation | 🔹 40% |
+| Wayland Architecture Research | 🔹 20% |
+| Prototype Rendering Layer | 🔹 10% |
+
+> See [Milestones](https://github.com/n4zz/Conky-wlr/milestones) for details.  
+> Track issues progress [here](https://github.com/n4zz/Conky-wlr/issues).
 
 ---
 
-## License
-
-This project is licensed under **GPLv3** (GNU General Public License v3). See [LICENSE](./LICENSE) for details.
+## 📦 Installation
+*(Under development – instructions will be added once the prototype is ready.)*
 
 ---
+
+## 📝 Contributing
+We welcome contributions from everyone, regardless of experience.
+
+- See [CONTRIBUTING.md](./CONTRIBUTING.md) for detailed guidelines  
+- Issues are labeled for clarity: `enhancement`, `research`, `experiment`, `documentation`, etc.  
+- Assign yourself to issues before working to avoid duplication  
+
+---
+
+## 🎯 Milestones Overview
+1. **Project Foundation** – setup, documentation, roadmap  
+2. **Wayland Architecture Research** – backend study, rendering options, Lua feasibility  
+3. **Prototype Rendering Layer** – minimal Wayland surface, text and shape rendering, placeholder for widgets
+
+---
+
+## 🖼 Screenshots / Demos
+*(Add screenshots or ASCII examples here as project evolves)*
+
+---
+
+## 📚 References
+- [Conky](https://github.com/brndnmtthws/conky)  
+- [Wayland](https://wayland.freedesktop.org/) & wlroots documentation  
+- Lua 5.x for widget scripts
+
+---
+
+## 💌 Community & Feedback
+- Open to **ideas, experiments, and discussions**  
+- Please create issues or comment on existing ones  
+- Every contribution counts, from code to documentation  
+
+---
+
+## 🔖 Badges (optional)
+![GitHub issues](https://img.shields.io/github/issues/n4zz/Conky-wlr)
+![GitHub forks](https://img.shields.io/github/forks/n4zz/Conky-wlr)
+![GitHub stars](https://img.shields.io/github/stars/n4zz/Conky-wlr)
+![License](https://img.shields.io/github/license/n4zz/Conky-wlr)
+
+---      
 
 ## Note
 
