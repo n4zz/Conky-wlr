@@ -3,14 +3,9 @@
 ## Love Conky and want it to run natively on Wayland?  
 You're in the right place!
 
-I'm not a professional developer or programmer — my experience is limited to Bash, Python, and small personal projects. Still, I decided to start this project because I believe there's a need for Conky to work properly under Wayland.  
+I'm not a professional developer or programmer — my experience is limited a small personal projects to Bash, Python, HTML & CSS. Still, I decided to start this project because I believe there's a need for Conky to work properly under Wayland.  
 
 I understand this will be a long-term effort, and not everything may succeed. This project is **experimental** and open to everyone — anyone is welcome to join, help, test, or contribute ideas.  
-
----
-
-> **Wayland-native Conky** – bringing Conky-style system monitoring to Wayland compositors  
-> (Plasma, Sway, Hyprland, etc.)
 
 ---
 
@@ -29,9 +24,9 @@ I understand this will be a long-term effort, and not everything may succeed. Th
           
 | Milestone | Progress |      
 |-----------|----------|        
-| Project Foundation | 🔹 40% |       
-| Wayland Architecture Research | 🔹 20% |        
-| Prototype Rendering Layer | 🔹 10% |        
+| Project Foundation | 🔹 0% |       
+| Wayland Architecture Research | 🔹 0% |        
+| Prototype Rendering Layer | 🔹 0% |        
           
 > See [Milestones](https://github.com/n4zz/Conky-wlr/milestones) for details.  
 > Track issues progress [here](https://github.com/n4zz/Conky-wlr/issues).
