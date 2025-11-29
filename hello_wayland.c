@@ -1,6 +1,7 @@
 // hello_wayland.c
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 #include <wayland-client.h>
 
 struct wl_display *display = NULL;
