@@ -55,12 +55,12 @@ We welcome contributions from everyone, regardless of experience.
 1. **Project Foundation** – setup, documentation, roadmap  
 2. **Wayland Architecture Research** – backend study, rendering options, Lua feasibility  
 3. **Prototype Rendering Layer** – minimal Wayland surface, text and shape rendering, placeholder for widgets
------      
+--     
 - Milestone 3 – Prototype Rendering Layer  
   ✅ First step completed: `hello_wayland.c` skeleton created and successfully tested.  
   This minimal Wayland client creates a surface and confirms the connection to the compositor.  
   [See file](./hello_wayland.c)
------
+      
 ---
 
 ## 🖼 Screenshots / Demos
