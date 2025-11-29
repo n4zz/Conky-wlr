@@ -56,7 +56,7 @@ We welcome contributions from everyone, regardless of experience.
 2. **Wayland Architecture Research** – backend study, rendering options, Lua feasibility  
 3. **Prototype Rendering Layer** – minimal Wayland surface, text and shape rendering, placeholder for widgets
      
-###      
+-          
        
 - Milestone 3 – Prototype Rendering Layer  
   ✅ First step completed: `hello_wayland.c` skeleton created and successfully tested.  
