@@ -28,7 +28,7 @@ I understand this will be a long-term effort, and not everything may succeed. Th
           
 | Milestone | Progress |      
 |-----------|----------|        
-| Project Foundation | 🔹 0% |       
+| Project Foundation | 🔹 25% |       
 | Wayland Architecture Research | 🔹 0% |        
 | Prototype Rendering Layer | 🔹 0% |        
           
