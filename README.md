@@ -43,7 +43,7 @@ I understand this will be a long-term effort, and not everything may succeed. Th
 ---
 
 ## 📝 Contributing
-We welcome contributions from everyone, regardless of experience.
+It will be open to contributors once there is a functional basis. For now, it is being used for experimenting with Wayland.
 
 - See [CONTRIBUTING.md](./CONTRIBUTING.md) for detailed guidelines  
 - Issues are labeled for clarity: `enhancement`, `research`, `experiment`, `documentation`, etc.  
