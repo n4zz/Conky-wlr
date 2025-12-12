@@ -92,12 +92,14 @@ For now, it is being used for experimenting with Wayland.
 - Milestone 3 – Prototype Rendering Layer  
   ✅ First step completed: `hello_wayland.c` skeleton created and successfully tested.  
   This minimal Wayland client creates a surface and confirms the connection to the compositor.  
-  [See file](./hello_wayland.c)
-
+  [See file](https://github.com/n4zz/Conky-wlr/blob/main/Files/01.hello_wayland/hello_wayland.c)       
+  
   ✅ SHM buffer allocation + drawing  
+  [See file](https://github.com/n4zz/Conky-wlr/blob/main/Files/02.wayland_shm/wayland_shm.c)       
       
-  ✅ Cairo-based text rendering  
-     
+  ✅ Cairo-based text rendering      
+  [See file](https://github.com/n4zz/Conky-wlr/blob/main/Files/03.wayland_shm_cairo/wayland_shm_cairo.c)      
+           
   🔜 Modular rendering architecture (planned for step 04)          
     
 ---
