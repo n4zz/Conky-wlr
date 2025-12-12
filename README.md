@@ -74,21 +74,12 @@ Each subdirectory contains its own `README.md` with instructions.
 ---
 
 ## 📝 Contributing
-<<<<<<< Updated upstream
-It will be open to contributors once there is a functional basis. For now, it is being used for experimenting with Wayland.
-
-- See [CONTRIBUTING.md](./CONTRIBUTING.md) for detailed guidelines  
-- Issues are labeled for clarity: `enhancement`, `research`, `experiment`, `documentation`, etc.  
-- Assign yourself to issues before working to avoid duplication  
-
-=======
-      
+  
 It will be open to contributors once there is a functional basis.        
 For now, it is being used for experimenting with Wayland.       
       
 - U can see [CONTRIBUTING.md](./CONTRIBUTING.md) for detailed guidelines        
       
->>>>>>> Stashed changes
 ---
 
 ## 🎯 Milestones Overview
