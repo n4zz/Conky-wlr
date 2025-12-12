@@ -45,8 +45,8 @@ This repository currently serves as:
 | Milestone | Progress |      
 |-----------|----------|        
 | Project Foundation | 🔹 25% |       
-| Wayland Architecture Research | 🔹 0% |        
-| Prototype Rendering Layer | 🔹 0% |        
+| Wayland Architecture Research | 🔹 33% |        
+| Prototype Rendering Layer | 🔹 33% |        
           
 > See [Milestones](https://github.com/n4zz/Conky-wlr/milestones) for details.  
 > Track issues progress [here](https://github.com/n4zz/Conky-wlr/issues).
@@ -87,9 +87,8 @@ For now, it is being used for experimenting with Wayland.
 2. **Wayland Architecture Research** – backend study, rendering options, Lua feasibility  
 3. **Prototype Rendering Layer** – minimal Wayland surface, text and shape rendering, placeholder for widgets
      
--          
-       
-- Milestone 3 – Prototype Rendering Layer  
+---         
+        
   ✅ First step completed: `hello_wayland.c` skeleton created and successfully tested.  
   This minimal Wayland client creates a surface and confirms the connection to the compositor.  
   [See file](https://github.com/n4zz/Conky-wlr/blob/main/Files/01.hello_wayland/hello_wayland.c)       
@@ -110,6 +109,7 @@ For now, it is being used for experimenting with Wayland.
      
 - Wayland_SHM_Cairo_text      
 <img src="https://github.com/n4zz/Conky-wlr/blob/main/Screenshots/wayland_shm_cairo_test.png" width="150">     
+      
 ---
 
 ## 📚 References
