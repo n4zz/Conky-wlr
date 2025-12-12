@@ -105,7 +105,11 @@ For now, it is being used for experimenting with Wayland.
 ---
 
 ## 🖼 Screenshots / Demos
-<img src="https://github.com/n4zz/Conky-wlr/blob/main/Screenshots/wayland_shm_test.png" width="100"> <img src="https://github.com/n4zz/Conky-wlr/blob/main/Screenshots/wayland_shm_cairo_test.png" width="100">     
+- Wayland_SHM       
+<img src="https://github.com/n4zz/Conky-wlr/blob/main/Screenshots/wayland_shm_test.png" width="100">
+     
+- Wayland_SHM_Cairo_text      
+<img src="https://github.com/n4zz/Conky-wlr/blob/main/Screenshots/wayland_shm_cairo_test.png" width="150">     
 ---
 
 ## 📚 References
