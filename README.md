@@ -109,19 +109,21 @@ For now, it is being used for experimenting with Wayland.
       
 ### **Wayland_SHM**
 [📄 View README](./Files/02.wayland_shm/README.md)  
-<img src="https://github.com/n4zz/Conky-wlr/blob/main/Screenshots/wayland_shm_test.png" width="100">
+
+<img src="https://github.com/n4zz/Conky-wlr/blob/main/Screenshots/wayland_shm_test.png" width="140">
        
 ---
               
 ### **Wayland_SHM_Cairo_text**      
 [📄 View README](./Files/03.wayland_shm_cairo/README.md)  
-<img src="https://github.com/n4zz/Conky-wlr/blob/main/Screenshots/wayland_shm_cairo_test.png" width="150">     
+
+<img src="https://github.com/n4zz/Conky-wlr/blob/main/Screenshots/wayland_shm_cairo_test.png" width="200">     
       
 ---
 
 ## 📚 References
 - [Conky](https://github.com/brndnmtthws/conky)  
-- [Wayland](https://wayland.freedesktop.org/) & wlroots documentation  
+- [Wayland](https://wayland.freedesktop.org/)  
 - wlroots Documentation  
 - Cairo Graphics  
 - Lua 5.x for widget scripts
