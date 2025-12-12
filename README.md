@@ -41,6 +41,8 @@ This repository currently serves as:
 - a **research sandbox**,        
 - a learning space for Wayland + SHM + Cairo,        
 - and a step-by-step progression toward a functional prototype.        
+      
+Milestones are updated manually as development progresses.       
           
 | Milestone | Progress |      
 |-----------|----------|        
@@ -121,7 +123,7 @@ For now, it is being used for experimenting with Wayland.
       
 ---      
        
-## Note      
+## 📝 Note      
        
 This project is intended as a **personal experiment and community contribution**. There is no guarantee that everything will work immediately, but every step forward is welcome.
 
