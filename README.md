@@ -106,10 +106,15 @@ For now, it is being used for experimenting with Wayland.
 ---
 
 ## 🖼 Screenshots / Demos
-- Wayland_SHM       
+      
+### **Wayland_SHM**
+[📄 View README](./Files/02.wayland_shm/README.md)  
 <img src="https://github.com/n4zz/Conky-wlr/blob/main/Screenshots/wayland_shm_test.png" width="100">
-     
-- Wayland_SHM_Cairo_text      
+       
+---
+              
+### **Wayland_SHM_Cairo_text**      
+[📄 View README](./Files/03.wayland_shm_cairo/README.md)  
 <img src="https://github.com/n4zz/Conky-wlr/blob/main/Screenshots/wayland_shm_cairo_test.png" width="150">     
       
 ---
