@@ -62,7 +62,8 @@ Files/
  ├── 00.wayland_protocol_headers/   → generated xdg-shell headers
  ├── 01.hello_wayland/              → minimal Wayland client test
  ├── 02.wayland_shm/                → SHM surface + raw drawing
- └── 03.wayland_shm_cairo/          → SHM + Cairo rendering
+ ├── 03.wayland_shm_cairo/          → SHM + Cairo rendering
+ └── 04.wayland_shm_cairo_db/       → SHM + Cairo + double buffer - widget prototype
 Screenshots/                        → test output images
 ```
        
@@ -101,8 +102,16 @@ For now, it is being used for experimenting with Wayland.
   ✅ Cairo-based text rendering      
   [See file](https://github.com/n4zz/Conky-wlr/blob/main/Files/03.wayland_shm_cairo/wayland_shm_cairo.c)      
            
-  🔜 Modular rendering architecture (planned for step 04)          
-    
+  ✅ Modular rendering architecture - widget prototype       
+      - real-time rendering (tick-based redraw)       
+      - double buffering       
+      - modular architecture       
+      - dynamic system information (Time, CPU, RAM)       
+      - transparency and alpha blending       
+ [See file](https://github.com/n4zz/Conky-wlr/blob/main/Files/04.wayland_shm_cairo_db/wayland_shm_cairo_db.c)
+        
+  🔜 Other System Variables and Graphs (planned for step 05)       
+           
 ---
 
 ## 🖼 Screenshots / Demos
