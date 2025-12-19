@@ -130,6 +130,13 @@ For now, it is being used for experimenting with Wayland.
       
 ---
 
+### **Wayland_SHM_Cairo_widget_prototype**      
+[📄 View README](./Files/04.wayland_shm_cairo_db/README.md)  
+
+<img src="https://github.com/n4zz/Conky-wlr/blob/main/Screenshots/wayland_shm_system_info.png" width="200">    <img src="https://github.com/n4zz/Conky-wlr/blob/main/Screenshots/transparency_test.png" width="200"> <img src="https://github.com/n4zz/Conky-wlr/blob/main/Screenshots/transparency_test_2.png" width="200"> <img src="https://github.com/n4zz/Conky-wlr/blob/main/Screenshots/bgrd_wall_transparency_test.png" width="200">
+
+---
+       
 ## 📚 References
 - [Conky](https://github.com/brndnmtthws/conky)  
 - [Wayland](https://wayland.freedesktop.org/)  
