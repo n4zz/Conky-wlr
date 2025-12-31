@@ -108,7 +108,7 @@ For now, it is being used for experimenting with Wayland.
       - modular architecture       
       - dynamic system information (Time, CPU, RAM)       
       - transparency and alpha blending       
- [See file](https://github.com/n4zz/Conky-wlr/blob/main/Files/04.wayland_shm_cairo_db/wayland_shm_cairo_db.c)
+ [See files](https://github.com/n4zz/Conky-wlr/tree/main/Files/04.wayland_shm_cairo_db)
         
   🔜 Other System Variables and Graphs (planned for step 05)       
            
