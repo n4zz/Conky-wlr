@@ -126,7 +126,7 @@ For now, it is being used for experimenting with Wayland.
 ---
   
 ### Architecture Overview
-(diagram)
+(diagram)      
                 Wayland Compositor
                         │
                         ▼
