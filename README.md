@@ -2,20 +2,21 @@
 ![GitHub forks](https://img.shields.io/github/forks/n4zz/Conky-wlr)
 ![GitHub stars](https://img.shields.io/github/stars/n4zz/Conky-wlr)
 ![License](https://img.shields.io/github/license/n4zz/Conky-wlr)      
-      
+```      
                         ____ ___  _   _ _  ____   __ __        ___     ____        
                        / ___/ _ \| \ | | |/ /\ \ / / \ \      / / |   |  _ \        
                       | |  | | | |  \| | ' /  \ V /___\ \ /\ / /| |   | |_) |        
                       | |__| |_| | |\  | . \   | |_____\ V  V / | |___|  _ <         
                        \____\___/|_| \_|_|\_\  |_|      \_/\_/  |_____|_| \_\       
-
+```
 ## Love Conky and want it to run natively on Wayland?  
 You're in the right place!
 
 ## 🎯 What is this project?           
          
-This repository is an **experimental attempt to build a native Wayland backend for Conky**.          
-         
+This repository is an **experimental attempt to build a native Wayland backend for Conky**.                This repository is structured as a step-by-step exploration of Wayland rendering,
+progressing from a minimal client to a modular widget framework.      
+       
 I’m **not a professional developer** — my experience comes mostly from small Bash, Python, HTML & CSS projects.           
 But Conky deserves to run properly on Wayland without X11, XWayland, or hacks… so here we are.      
           
@@ -23,7 +24,7 @@ This project:
 - may take a long time,         
 - may fail in some parts,         
 - will definitely evolve,         
-- and **anyone is welcome to join or experiment**.        
+- is open to anyone who wants to experiment or contribute      
         
 ---       
         
@@ -82,7 +83,7 @@ Each subdirectory contains its own `README.md` with instructions.
 It will be open to contributors once there is a functional basis.        
 For now, it is being used for experimenting with Wayland.       
       
-- U can see [CONTRIBUTING.md](./CONTRIBUTING.md) for detailed guidelines        
+- See [CONTRIBUTING.md](./CONTRIBUTING.md) for detailed guidelines        
       
 ---
 
@@ -92,41 +93,69 @@ For now, it is being used for experimenting with Wayland.
 3. **Prototype Rendering Layer** – minimal Wayland surface, text and shape rendering, placeholder for widgets
      
 ---         
-        
-  ✅ First step completed: `hello_wayland.c` skeleton created and successfully tested.  
+
+## Development Path     
+``` 
+      hello_wayland (v01)
+           │
+           ▼
+      Wayland SHM buffers (v02)
+           │
+           ▼
+      SHM + Cairo rendering (v03)
+           │
+           ▼
+      Double buffering (v03)
+           │
+           ▼
+      Widget prototype (v04)
+           │
+           ▼
+      Widget framework (v05)
+```
+     
+## Development Progress      
+      
+  ✅ First step completed: `hello_wayland.c` skeleton created and successfully tested.
+         
   This minimal Wayland client creates a surface and confirms the connection to the compositor.  
   [See file](https://github.com/n4zz/Conky-wlr/blob/main/Files/01.hello_wayland/hello_wayland.c)       
   
-  ✅ SHM buffer allocation + drawing  
+  ✅ Version 02 : SHM buffer allocation + drawing        
+        
+  Basic shared memory buffer rendering implemented.     
   [See file](https://github.com/n4zz/Conky-wlr/blob/main/Files/02.wayland_shm/wayland_shm.c)       
       
-  ✅ Cairo-based text rendering      
+  ✅ Version 03 : Cairo-based text rendering      
+         
+  Text rendering using Cairo integrated with Wayland SHM buffers.      
   [See file](https://github.com/n4zz/Conky-wlr/blob/main/Files/03.wayland_shm_cairo/wayland_shm_cairo.c)      
            
-  ✅ Modular rendering architecture - widget prototype       
+  ✅ Version 04 : Modular rendering architecture - widget prototype       
+        
       - real-time rendering (tick-based redraw)       
       - double buffering       
       - modular architecture       
       - dynamic system information (Time, CPU, RAM)       
       - transparency and alpha blending       
+          
  [See files](https://github.com/n4zz/Conky-wlr/tree/main/Files/04.wayland_shm_cairo_db)
         
-  ✅ Other System Variables and Graphs, Progressbars
-      - Wayland SHM rendering      
-      - Cairo graphics and text      
-      - system monitoring modules      
-      - widgets      
-      - a configuration system       
-      - drag-to-move window support       
+  ✅ Version 05 milestone: system widgets and window interaction
+        Features introduced:
+       
+      - Cairo graphics and text rendering
+      - system monitoring modules
+      - modular widgets
+      - configuration system
+      - graphs and progress bars
+      - drag-to-move window support (xdg_move)       
+      
+            
  [See files](https://github.com/n4zz/Conky-wlr/tree/main/Files/05.wayland_movable/src)      
        
-        
-  🔜 
-
----
-  
-### Architecture Overview
- ```     
+## Architecture Overview        
+ ```  
                 Wayland Compositor
                         │
                         ▼
@@ -154,6 +183,7 @@ For now, it is being used for experimenting with Wayland.
                 System Information
        CPU / RAM / GPU / Network / Storage
 ```
+🔜 
 ---
 
 ## 🖼 Screenshots / Demos
@@ -188,7 +218,8 @@ For now, it is being used for experimenting with Wayland.
        
 ## 📚 References
 - [Conky](https://github.com/brndnmtthws/conky)  
-- [Wayland](https://wayland.freedesktop.org/)  
+- [Wayland](https://wayland.freedesktop.org/)
+- [Wayland book](https://wayland-book.com/)
 - wlroots Documentation  
 - Cairo Graphics  
 - Lua 5.x for widget scripts
