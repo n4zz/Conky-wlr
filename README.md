@@ -49,8 +49,8 @@ Milestones are updated manually as development progresses.
 | Milestone | Progress |      
 |-----------|----------|        
 | Project Foundation | 🔹 25% |       
-| Wayland Architecture Research | 🔹 33% |        
-| Prototype Rendering Layer | 🔹 33% |        
+| Wayland Architecture Research | 🔹 66% |        
+| Prototype Rendering Layer | 🔹 66% |        
           
 > See [Milestones](https://github.com/n4zz/Conky-wlr/milestones) for details.  
 > Track issues progress [here](https://github.com/n4zz/Conky-wlr/issues).
