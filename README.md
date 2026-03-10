@@ -126,7 +126,7 @@ For now, it is being used for experimenting with Wayland.
 ---
   
 ### Architecture Overview
-(diagram)      
+ ```     
                 Wayland Compositor
                         │
                         ▼
@@ -153,6 +153,7 @@ For now, it is being used for experimenting with Wayland.
                         ▼
                 System Information
        CPU / RAM / GPU / Network / Storage
+```
 ---
 
 ## 🖼 Screenshots / Demos
