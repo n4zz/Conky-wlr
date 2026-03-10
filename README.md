@@ -112,21 +112,21 @@ For now, it is being used for experimenting with Wayland.
  [See files](https://github.com/n4zz/Conky-wlr/tree/main/Files/04.wayland_shm_cairo_db)
         
   ✅ Other System Variables and Graphs, Progressbars
-      - Wayland SHM rendering
-      - Cairo graphics and text
-      - system monitoring modules
-      - widgets
-      - a configuration system
-      - drag-to-move window support
- [See files](https://github.com/n4zz/Conky-wlr/tree/main/Files/05.wayland_movable_db)
-
- 
+      - Wayland SHM rendering      
+      - Cairo graphics and text      
+      - system monitoring modules      
+      - widgets      
+      - a configuration system       
+      - drag-to-move window support       
+ [See files](https://github.com/n4zz/Conky-wlr/tree/main/Files/05.wayland_movable)      
+       
+        
   🔜 
 
 ---
   
 ### Architecture Overview
-               Wayland Compositor
+(               Wayland Compositor
                         │
                         ▼
                 Wayland Client
@@ -139,20 +139,20 @@ For now, it is being used for experimenting with Wayland.
                         ▼
                  Cairo Renderer
         ┌───────────────┼───────────────┐
-        ▼               ▼               ▼
-   Shapes / UI      Text Rendering     Graphs
- (cairo_graphics)   (cairo_text)     (progress/graphs)
-        │               │               │
-        └───────────────┴───────────────┘
-                        │
-                        ▼
-                    Widgets
+        ▼               ▼               ▼     
+   Shapes / UI      Text Rendering     Graphs      
+ (cairo_graphics)   (cairo_text)     (progress/graphs)       
+        │               │               │       
+        └───────────────┴───────────────┘        
+                        │      
+                        ▼       
+                    Widgets       
          (combine graphics + text + data)
                         │
                         ▼
                 System Information
        CPU / RAM / GPU / Network / Storage
-
+)
 ---
 
 ## 🖼 Screenshots / Demos
@@ -179,7 +179,7 @@ For now, it is being used for experimenting with Wayland.
 ---
 
 ### **Wayland_movable**      
-[📄 View README](./Files/05.wayland_movable_db/README.md)       
+[📄 View README](./Files/05.wayland_movable/README.md)       
 
 <img src="https://github.com/n4zz/Conky-wlr/blob/main/Screenshots/v05_demo.png" width="200">       
        
