@@ -28,7 +28,7 @@ Modular Architecture
 
 The project is now divided into independent modules with clear responsibilities.
 
-(.      
+.      
 ├── cairo_graphics      
 ├── cairo_text      
 ├── config      
@@ -39,7 +39,7 @@ The project is now divided into independent modules with clear responsibilities.
 ├── widgets      
 ├── wayland_movable.c      
 ├── xdg_move.c/.h      
-└── Makefile      )
+└── Makefile      
 
 Each module focuses on a single responsibility, simplifying maintenance and future development.
 
