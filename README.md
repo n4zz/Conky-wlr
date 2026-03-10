@@ -37,7 +37,8 @@ This project:
 ---      
         
 ## 🚀 Current Status
-      
+    Important. Current phase of the project - PAUSE. Work is underway and a custom system widget for plasma (kwin).      
+     
 This repository currently serves as:      
 - a **research sandbox**,        
 - a learning space for Wayland + SHM + Cairo,        
