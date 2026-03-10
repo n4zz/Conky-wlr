@@ -49,7 +49,7 @@ Each module focuses on a single responsibility, simplifying maintenance and futu
 
 ### System Layer
 
-** system_info **
+**system_info**
 
 Provides dynamic system metrics:
 
@@ -69,7 +69,7 @@ Provides dynamic system metrics:
     
 ### Rendering Layer
 
-** cairo_graphics **
+**cairo_graphics**
 
 Responsible for graphical elements:
 
@@ -89,7 +89,7 @@ Responsible for graphical elements:
     
 ### cairo_text
 
-** Handles textual output: **
+**Handles textual output:**
 
     - time and date
 
@@ -103,7 +103,7 @@ Responsible for graphical elements:
     
 ### Widget Layer
 
-** widgets **
+**widgets**
 
 Widgets combine:
 
@@ -215,7 +215,7 @@ This allows the window to behave like a movable widget/dashboard panel.
 
 ---
 
-## Build
+## Build (in terminal)
 
 make
 
