@@ -28,18 +28,18 @@ Modular Architecture
 
 The project is now divided into independent modules with clear responsibilities.
 
-.
-├── cairo_graphics
-├── cairo_text
-├── config
-├── orchestrator
-├── system_info
-├── ui
-├── utils
-├── widgets
-├── wayland_movable.c
-├── xdg_move.c/.h
-└── Makefile
+(.      
+├── cairo_graphics      
+├── cairo_text      
+├── config      
+├── orchestrator      
+├── system_info      
+├── ui      
+├── utils      
+├── widgets      
+├── wayland_movable.c      
+├── xdg_move.c/.h      
+└── Makefile      )
 
 Each module focuses on a single responsibility, simplifying maintenance and future development.
 
