@@ -118,7 +118,7 @@ For now, it is being used for experimenting with Wayland.
       - widgets      
       - a configuration system       
       - drag-to-move window support       
- [See files](https://github.com/n4zz/Conky-wlr/tree/main/Files/05.wayland_movable)      
+ [See files](https://github.com/n4zz/Conky-wlr/tree/main/Files/05.wayland_movable/src)      
        
         
   🔜 
@@ -126,7 +126,8 @@ For now, it is being used for experimenting with Wayland.
 ---
   
 ### Architecture Overview
-(               Wayland Compositor
+(diagram)
+                Wayland Compositor
                         │
                         ▼
                 Wayland Client
@@ -152,7 +153,6 @@ For now, it is being used for experimenting with Wayland.
                         ▼
                 System Information
        CPU / RAM / GPU / Network / Storage
-)
 ---
 
 ## 🖼 Screenshots / Demos
