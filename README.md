@@ -214,7 +214,7 @@ For now, it is being used for experimenting with Wayland.
 ### **Wayland_movable**      
 [📄 View README](./Files/05.wayland_movable/README.md)       
 
-<img src="https://github.com/n4zz/Conky-wlr/blob/main/Screenshots/v05_demo.png" width="200">       
+<img src="https://github.com/n4zz/Conky-wlr/blob/main/Screenshots/v05_demo.png" width="200">       <img src="main/Files/05.wayland_movable/wayland_movable.webm" width="600">
        
 ---
        
