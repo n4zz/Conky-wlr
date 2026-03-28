@@ -167,7 +167,7 @@ config.ini allows configuration of:
 
    * widget positions
 
-   * theme parameters (colors, radius, thickness, fonts)
+   * theme parameters for main dashboard window (colors, radius, thickness)
 
    * network interface (auto / manual)
    
